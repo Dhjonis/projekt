@@ -18,5 +18,9 @@ body{
 .carousel-inner,
 .carousel-inner img{
     height: 500px;
-    object-fit: none;
+    object-fit: cover;
+}
+
+.card img{
+    height: 250px;
 }
