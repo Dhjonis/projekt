@@ -24,3 +24,30 @@ body{
 .card img{
     height: 250px;
 }
+.navbar , .nav-link{
+    z-index: 99;
+}
+/* 
+.carousel-control-prev{
+    z-index: -1;
+} */
+
+iframe{
+    width: 600px;
+    height: 450px;
+}
+
+/* Responsiviteti / Media Screen */
+/* max , min, min-max */
+@media screen and (max-width:992px) {}
+
+@media screen and (max-width: 400px){
+   iframe{
+    width: 100%;
+   } 
+   .navbar-brand img{
+    width: 70px;
+    height: 70px;
+}
+
+}
